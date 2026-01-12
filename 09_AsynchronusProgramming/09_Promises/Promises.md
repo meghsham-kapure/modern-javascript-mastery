@@ -1,13 +1,13 @@
 # Promises
 
-- A Promise in JavaScript is an object that represents a value that may not be available yet but will be resolved at some point in the future.
+- A Promise in JavaScript is an object that represents a value that may not be available yet but will be received / resolved at some point in the future.
 
 - The value is produced by an operation that takes time (such as a network request or a file read).
 
-  - If the operation succeeds, the Promise resolves with a result value.
-  - If it fails, the Promise rejects with an error.
+  - If the operation succeeds, the Promise resolves with a result value indicating successful operation.
+  - If it fails, the Promise rejects with an error that need to be handle.
 
-- A Promise represents a task that takes time to complete. Instead of blocking the program while waiting, the Promise allows the program to continue running other code, and delivers the result (or error) once it’s values is ready.
+- A Promise represents a task that takes time to complete so instead of blocking the program while waiting, the promise allows the program to continue running other code asynchronously, and delivers the result or error once it’s values is ready.
 
 ## Creating Promises in JavaScript
 
